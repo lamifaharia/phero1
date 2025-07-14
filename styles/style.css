@@ -124,3 +124,59 @@ header {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   border-radius: 8px;
 }
+/* Feature Section */
+.feature {
+  padding: 60px 20px;
+  background-color: #f0f4f8;
+  text-align: center;
+}
+
+.feature h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.feature-img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Contact Section */
+.contact {
+  padding: 60px 20px;
+  background: #fff;
+}
+
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.contact-text {
+  flex: 1;
+  min-width: 250px;
+}
+
+.contact-text h3 {
+  font-size: 1.8rem;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 100%;
+  resize: vertical;
+}
